@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb", "plugin:@next/next/recommended", "prettier"],
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/function-component-definition": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
